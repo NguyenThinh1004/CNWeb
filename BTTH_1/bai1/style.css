@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    width: 90%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}

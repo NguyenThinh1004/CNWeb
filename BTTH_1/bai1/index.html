@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách các loài hoa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+</head>
+<body>
+
+<h1>14 Loại Hoa Tuyệt Đẹp Mùa Xuân Hè</h1>
+
+<div id="flower-list" class="grid"></div>
+
+<script>
+    const container = document.getElementById("flower-list");
+
+    flowers.forEach(flower => {
+        container.innerHTML += `
+        <div class="card">
+            <img src="${flower.image}" alt="${flower.name}">
+            <h3>${flower.name}</h3>
+            <p>${flower.description}</p>
+        </div>`;
+    });
+</script>
+
+</body>
+</html>

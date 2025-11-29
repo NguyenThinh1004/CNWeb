@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.question {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #4CAF50;
+}
+
+.question h3 {
+    margin: 0 0 10px;
+}
+
+.question label {
+    display: block;
+    margin: 5px 0;
+}
